@@ -32,7 +32,7 @@ cp -r /path/to/ai-agent-system/_system ./
 
 ```bash
 # Add as submodule
-git submodule add https://github.com/YOUR_USERNAME/ai-agent-system.git _system
+git submodule add https://github.com/vvkvivekl/project-context-system.git _system
 
 # After cloning a project with this submodule
 git clone --recurse-submodules <your-repo-url>

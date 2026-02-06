@@ -1,4 +1,4 @@
-# AI Agent System
+# Project Context System
 
 > A portable framework for AI agents to maintain context and follow consistent workflows.
 

@@ -172,6 +172,26 @@ Follow `./_system/workflows/setup.md`
 
 This allows users to type `/system` to invoke the AI Agent System.
 
+### Step 9: Create AI Agent Entry Points
+
+Create `./AGENTS.md`:
+```markdown
+# AI Agent Instructions
+
+Read `./_system/BOOTSTRAP.md` and follow the workflow.
+If `./_system_memory/` doesn't exist, run setup first.
+```
+
+Create `./CLAUDE.md`:
+```markdown
+# Claude Instructions
+
+Read `./_system/BOOTSTRAP.md` and follow the AI Agent System workflow.
+```
+
+These files help AI agents discover and follow the system.
+See `./_system/guides/agent_entry_points.md` for more agent-specific files.
+
 ---
 
 ## Verification
@@ -187,6 +207,8 @@ After setup, verify all files exist:
 - [ ] `_system_memory/INDEX.md`
 - [ ] `_system_memory/workspace/_notes.md`
 - [ ] `.agent/workflows/system.md`
+- [ ] `AGENTS.md`
+- [ ] `CLAUDE.md`
 
 ---
 

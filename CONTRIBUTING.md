@@ -1,4 +1,4 @@
-# Contributing to AI Agent System
+# Contributing to Project Context System
 
 > Guide for evolving the `_system` framework.
 

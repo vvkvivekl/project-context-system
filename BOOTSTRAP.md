@@ -1,4 +1,4 @@
-# AI Agent System
+# Project Context System
 
 > **Read this file at the start of every conversation.**
 

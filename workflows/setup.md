@@ -192,7 +192,28 @@ Read `./_system/BOOTSTRAP.md` and follow the AI Agent System workflow.
 These files help AI agents discover and follow the system.
 See `./_system/guides/agent_entry_points.md` for more agent-specific files.
 
----
+### Step 10: Update Project README
+
+If the project has a `README.md`, add an "For AI Agents" section:
+
+```markdown
+## 🤖 For AI Agents
+
+> This project uses the **Project Context System** for AI agent coordination.
+
+**Before starting any task:**
+1. Read `./_system/BOOTSTRAP.md`
+2. Follow the workflow defined there
+3. Check `AGENTS.md` or `CLAUDE.md` at repo root
+
+**Key resources:**
+- `./_system/BOOTSTRAP.md` — Entry point
+- `./_system_memory/INDEX.md` — Project context
+- `./_system_memory/state/todos.md` — Pending work
+- `./_system/rules/core.md` — Rules to follow
+```
+
+Add this section before the "Contributing" section (if it exists).
 
 ## Verification
 
@@ -209,6 +230,7 @@ After setup, verify all files exist:
 - [ ] `.agent/workflows/system.md`
 - [ ] `AGENTS.md`
 - [ ] `CLAUDE.md`
+- [ ] `README.md` has "For AI Agents" section
 
 ---
 

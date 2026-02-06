@@ -7,7 +7,7 @@
 
 ## Framework Version
 
-- **Version**: 1.5.0
+- **Version**: 1.6.0
 - **Created**: 2026-02-06
 - **Status**: ✅ Core Complete
 
@@ -64,6 +64,7 @@
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 1.6.0 | 2026-02-06 | Added Step 10 (README AI section) to setup, AI instructions in project README |
 | 1.5.0 | 2026-02-06 | Added post_task.md for post-task alignment verification |
 | 1.4.0 | 2026-02-06 | Added versioning system with VERSION, MIGRATIONS.md, and update workflow |
 | 1.3.0 | 2026-02-06 | Added setup guide and init.sh script for new repos |

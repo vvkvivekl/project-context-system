@@ -24,6 +24,17 @@ Each migration section describes:
 
 ## Migrations
 
+### 1.5.0 → 1.6.0
+
+**Changes in _system:**
+- Added Step 10 to setup workflow (update project README with AI instructions)
+
+**Actions for AI agent:**
+1. Add "For AI Agents" section to project `README.md` (before Contributing section)
+2. Update `./_system_memory/VERSION.md` to `1.6.0`
+
+---
+
 ### 1.4.0 → 1.5.0
 
 **Changes in _system:**

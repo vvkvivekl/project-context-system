@@ -1,0 +1,45 @@
+# Configuration Template
+
+> Copy this to `./_system_memory/project/config.yaml` and customize.
+
+---
+
+# Project Configuration
+# This file should be placed in: ./_system_memory/project/config.yaml
+
+project:
+  name: ""           # Your project name
+  description: ""    # Brief description
+  
+stack:
+  # Define your tech stack
+  # Examples:
+  # backend:
+  #   language: "Python"
+  #   framework: "FastAPI"
+  #   path: "./backend"
+  # frontend:
+  #   language: "TypeScript"
+  #   framework: "Next.js"
+  #   path: "./frontend"
+
+paths:
+  # Key directories (relative to repo root)
+  # source: "./src"
+  # tests: "./tests"
+  # docs: "./docs"
+
+code_style:
+  # Reference to code style file
+  file: "./_system_memory/project/code_style.md"
+
+index:
+  # Staleness thresholds
+  stale_after_days: 3
+  refresh_after_updates: 5
+
+session:
+  # Prompts at session end
+  ask_context_update: true
+  ask_incomplete_items: true
+  ask_documentation_sync: true

@@ -24,6 +24,19 @@ Each migration section describes:
 
 ## Migrations
 
+### 1.6.0 → 1.7.0
+
+**Changes in _system:**
+- Added explicit system rules file creation to setup workflow
+- Added `.agent/rules/system.md` containing context system rules
+
+**Actions for AI agent:**
+1. Create `./.agent/rules/` directory (if not exists)
+2. Create `./.agent/rules/system.md` with rules defined in `workflows/setup.md`
+3. Update `./_system_memory/VERSION.md` to `1.7.0`
+
+---
+
 ### 1.5.0 → 1.6.0
 
 **Changes in _system:**

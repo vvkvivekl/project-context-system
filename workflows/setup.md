@@ -172,7 +172,20 @@ Follow `./_system/workflows/setup.md`
 
 This allows users to type `/system` to invoke the AI Agent System.
 
-### Step 9: Create AI Agent Entry Points
+### Step 9: Create System Rules
+
+Create `./.agent/rules` directory.
+
+Create `./.agent/rules/system.md`:
+```markdown
+# Project Context System Rules
+
+1. **Always** check for the existence of `_system/BOOTSTRAP.md` and `_system_memory/`.
+2. **Follow** the workflows defined in `_system/workflows/` and `.agent/workflows/`.
+3. **maintain** module `INDEX.md` files when modifying code.
+```
+
+### Step 10: Create AI Agent Entry Points
 
 Create `./AGENTS.md`:
 ```markdown
@@ -192,7 +205,7 @@ Read `./_system/BOOTSTRAP.md` and follow the AI Agent System workflow.
 These files help AI agents discover and follow the system.
 See `./_system/guides/agent_entry_points.md` for more agent-specific files.
 
-### Step 10: Update Project README
+### Step 11: Update Project README
 
 If the project has a `README.md`, add an "For AI Agents" section:
 
@@ -228,6 +241,7 @@ After setup, verify all files exist:
 - [ ] `_system_memory/INDEX.md`
 - [ ] `_system_memory/workspace/_notes.md`
 - [ ] `.agent/workflows/system.md`
+- [ ] `.agent/rules/system.md`
 - [ ] `AGENTS.md`
 - [ ] `CLAUDE.md`
 - [ ] `README.md` has "For AI Agents" section
